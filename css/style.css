@@ -1,0 +1,291 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ .header{
+ 	width: 100%;
+ 	margin: 10px 0;
+}
+ .container{
+	width:1140px;
+	/*background: red;*/
+	margin: auto 
+	 
+}
+
+.banner .banner-left{
+	flex-basis: 40%;
+}
+
+.banner .banner-right{
+	flex-basis: 60%;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+.logo img{
+	 width: 100px;
+}
+.menu ul li{
+	list-style: none;
+	display:inline-block;  
+	margin: 0 6px;
+	line-height: 5;
+	font-family: 'Open Sans', sans-serif;
+	/*font-size: 16px;*/
+	
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #1e266d;
+	font-size: 16px;
+
+}
+.menu-btn{
+	margin: 20px;
+}
+
+.menu-btn button{
+	background: #1E266D;
+	color: #fff;
+	 border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+
+}
+.menu-btn button:hover{
+	background-color: #00AEEF;
+	cursor: pointer;
+}
+	/*header css coding End here*/
+
+	/* banner css Coding Start from here */
+
+.banner{
+	width: 100%;
+}		
+.container{
+	width: 1140px;
+	margin: auto;
+
+}
+.banner-content{
+	display: flex;
+	margin-top: 70px;
+ 
+}
+}
+.banner-left{
+	 margin-top:  ;
+	 
+}
+.banner-left h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 41px;
+	color: #1E266D;
+	line-height: 44px;
+	font-weight: 700;
+	 
+}
+.banner-right img{
+	width: 100%;
+	height: auto;
+
+
+}
+.banner-left p{
+	color: #1E266D;
+	font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.banner-left button{
+	background: #1E266D;
+	border: none;
+	color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+.banner-left button:hover{
+	background-color: #00AEEF;
+	cursor: pointer;
+}
+.banner-2 .banner-left{
+	flex-basis: 40%;
+}
+
+.banner-2 .banner-right{
+	flex-basis: 60%;
+}
+
+/* banner css Coding Start from here */
+
+
+/* About Us css Start coding From here */
+
+.about{
+	width: 100%;
+	padding: 40px 0;
+
+
+}
+
+.about-ctnt h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	color: #1E266D;
+	 
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.about-ctnt p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	color: #333;
+	line-height:1.6em;
+	font-weight: 400px;
+	margin-bottom: 20px;
+}
+
+.sp-one, .sp-two, .sp-three{
+	color: #333;
+	font-weight:bolder;
+}
+			/*Addresss coding start*/
+.box{
+	width: 100%;
+	padding: 40px 0px 20px;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.box-ctn{
+	background: #2E367D;
+	display: flex;
+	border-radius: 8px;
+	padding: 100px 60px 80px;
+    margin: 0px 0px 60px;
+}
+
+.box .box-left, .box .box-right{
+	flex-basis: 50%;
+}
+
+.box-left h2, .box-right h2{
+  	color: #fff;
+  	font-size: 30px;
+ 	font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    margin: 0px 0px 10px;
+} 
+
+
+
+ .box-left p, .box-right p{
+  	color: #fff;
+  	font-size: 18px;
+ 	font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    line-height: 1.6em;
+} 
+/* About Us css Start coding From here */
+
+/* Footer css Start coding From here */
+
+.footer{
+	width: 100%;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+.footer-content{
+	display: flex;
+	/*justify-content: space-between;*/
+	padding: 0px 30px 30px;
+	/*margin-top: 0px;*/
+	margin-bottom: 80px;
+
+}
+
+.footer .footer-1, .footer .footer-2, .footer .footer-3, .footer .footer-4{
+
+	flex-basis:25% ;
+}
+
+.footer-1 h3, .footer-2 h3, .footer-3 h3, .footer-4 h3{
+	color: #1E266D;
+  	font-size: 16px;
+ 	font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    margin: 10px 0px 10px;
+} 
+
+.footer-1 p, .footer-2 p {
+	color: #91a3bb;
+  	font-size: 16px;
+ 	font-family: 'Open Sans', sans-serif;
+    font-weight: 80px;
+     ;
+    line-height: 1.4em;
+    margin: 0px 0px 16px;
+} 
+
+.footer-3 ul li, .footer-4 ul li {
+ 
+	list-style: none;
+	color: #91a3bb;
+  	font-size: 16px;
+ 	font-family: 'Open Sans', sans-serif;
+    font-weight: 80px;
+    line-height: 1.0em;
+    margin: 0px 0px 16px;
+}
+
+.footer-3 ul li {
+	margin-right: 15px;
+}
+
+.footer-3 ul li:hover, .footer-4 ul li:hover {
+	/*transition: 1s;*/
+	text-decoration: underline;
+	background-color: #00AEEF;
+	cursor: pointer;
+	color: #fff;
+	padding: 8px 0px 10px 10px;
+}
+
+.copyright{
+	width: 100%;
+	/*margin: auto;*/
+}
+
+.container{
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.copy p{
+	text-align: center;
+	color: #2e367da1;	 
+	font-size: 16px;
+ 	font-family: 'Open Sans', sans-serif;
+    font-weight: 80px;     
+    margin: 0px 0px 16px;
+}
+
+
+
+/* Footer css End coding From here */
